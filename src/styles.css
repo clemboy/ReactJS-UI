@@ -40,10 +40,10 @@ body {
 }
 
 .login-button{
-    background-color: rgb(250, 245, 245); 
+    background-color: white; 
     color: rgb(14, 13, 13); 
     padding: 10px 20px; 
-    border: none; 
+    border: 1px solid gray; 
     border-radius: 50px; 
     cursor: pointer; 
     font-size: 16px; 
@@ -99,6 +99,22 @@ body {
     gap: 3em;
   }
 
+  /*hero buttons styling */
+ .hero-btn {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ .hero-btn-one {
+  border: 1px solid gray;
+  background-color: white;
+  width: 350px;
+  border-radius: 25px;
+ }
+
+
 .card-container {
     display: flex;
     justify-content: center; /* Center the row within the container */
@@ -150,14 +166,6 @@ body {
     margin: 0; /* Remove margin from inner elements */
 }
 
-.b {
-    display: flex;
-    justify-content: left;
-    background-color: black;
-    color: white;
-    border: none;
-}
-
 .card-one {
     background-color: #5ecca0;
 }
@@ -176,7 +184,7 @@ body {
 
 /*feature content start here */
 
-.two-head, .row {
+.two-head, .row, .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -184,6 +192,19 @@ body {
   padding: 0 5rem;
   
 }
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  gap: 9rem;
+  padding: 4 6rem;
+}
+
+
+
+
+
 
 
 
