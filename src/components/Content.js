@@ -11,7 +11,7 @@ const Content = () => {
                     <h5>3 yrs CAGR</h5>
                     <div class="bottom">
                         <span class="percent">7.20%</span>
-                        <button class="btn-one"></button> 
+                        <button class="btn-one">&#8594;</button> 
                     </div>
                     
                 </div>
@@ -23,7 +23,7 @@ const Content = () => {
                 <h5>25 yrs CAGR</h5>
                 <div class="bottom">
                     <span>7.20%</span>
-                    <button class="btn-two"></button>
+                    <button class="btn-two">&#8594;</button>
                   </div> 
                 </div>
 
@@ -34,7 +34,7 @@ const Content = () => {
                 <h5>1 yr CAGR</h5>
                     <div class="bottom">
                         <span>7.20%</span>
-                        <button class="btn-three"></button>
+                        <button class="btn-three">&#8594;</button>
                 </div>
                 
                   
@@ -47,7 +47,7 @@ const Content = () => {
                 <h5>5 yrs CAGR</h5>
                 <div class="bottom">
                          <span>7.20%</span>
-                     <button class="btn-four"></button>
+                     <button class="btn-four">&#8594;</button>
                     </div>
                 </div>
         </div>

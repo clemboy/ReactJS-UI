@@ -151,11 +151,11 @@ body {
     width: 100%; /* Full width within the card */
 }
 
-.row > div .card-row button {
-    background-color: #007bff; /* Example background color */
+.btn-one, .btn-two, .btn-three, .btn-four {
+    background-color: #030303; /* Example background color */
     color: white; /* Text color */
     border: none; /* Remove default border */
-    padding: 10px 20px; /* Adjust padding */
+    padding: 10px 10px; /* Adjust padding */
     border-radius: 5px; /* Rounded corners */
     cursor: pointer; /* Pointer cursor */
     font-size: 16px; /* Font size */
@@ -197,7 +197,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: left;
-  gap: 9rem;
+  gap: 8rem;
   padding: 4 6rem;
 }
 
