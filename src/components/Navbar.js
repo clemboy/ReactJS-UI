@@ -17,8 +17,8 @@ export default function () {
             <li class="get-started">
                 <a href="/get started">Get Started</a>  
             </li>
-            <li class="humburger-menu">
-                <a href="/ham">=</a>  
+            <li class="hamburger-menu">
+                <a href="/">ham</a>  
             </li>
         </ul>
     </nav>

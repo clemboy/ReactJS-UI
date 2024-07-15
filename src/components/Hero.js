@@ -7,8 +7,11 @@ const Hero = () => {
       <h1>Life Planning, Making<br></br> Easy to Turn Dreams a Reality</h1>
       <p>Get Exclusive offers on purchase of any plans</p>
       <div class="hero-btn">
-        <button className="hero-btn-one">Your Email</button>
-        <button className="hero-btn-two">Sign Up</button>
+
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="Your Email"></input>
+        
+        <button className="hero-btn-one">Sign Up</button>
       </div>  
     </div>
       

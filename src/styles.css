@@ -51,7 +51,7 @@ body {
     font-weight: 500;
   }
 
-  .get-started, .hero-btn-two {
+  .get-started, .hero-btn-one {
     background-color: black; 
     color: white; 
     padding: 10px 20px; 
@@ -109,14 +109,18 @@ body {
     margin-bottom: 20px;
  }
 
- .hero-btn-one {
+ #email {
   border: 1px solid gray;
   background-color: white;
   width: 350px;
   border-radius: 25px;
  }
 
- .hero-btn-two:hover {
+ .hero-btn-one {
+    text-align: left;
+ }
+
+ .hero-btn-one:hover {
     background-color: #07c5f5; 
   }
 
@@ -224,14 +228,23 @@ body {
     margin-right: 18px;
 }
 
-.humburger-menu {
-    margin-top: 5px;
-    font-size: larger;
-    font-weight: bold;
-}
 .percent {
     font-size: larger;
     font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        padding: 5px; /* Adjust padding for smaller screens */
+    }
+    .site-title {
+        font-size: 1.5rem; /* Decrease font size for smaller screens */
+        margin-right: 10px; /* Reduce margin for smaller screens */
+    }
+    .hero-container {
+        height: 70vh; /* Adjust height of hero container for smaller screens */
+    }
+    /* Add more specific adjustments as needed */
 }
 
 

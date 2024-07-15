@@ -8,6 +8,7 @@ const Content = () => {
                     <h5>STRATEGY</h5>
                         <h3>Money Momentum</h3>
                         <p>Tract Premium helps you start saver<br></br> investments insights covering.</p>
+                        
                     <h5>3 yrs CAGR</h5>
                     <div class="bottom">
                         <span class="percent">7.20%</span>
