@@ -1,7 +1,7 @@
 export default function () {
     return <nav className="nav">
         <ul>
-        <a href="/" className="site-title">Lyf C</a>
+        <a href="/" className="site-title">Lyf-C</a>
         
         <div class="info">
             <li>
@@ -17,8 +17,8 @@ export default function () {
             <li class="get-started">
                 <a href="/get started">Get Started</a>  
             </li>
-            <li>
-                <a href="/ham">Humburger</a>  
+            <li class="humburger-menu">
+                <a href="/ham">=</a>  
             </li>
         </ul>
     </nav>

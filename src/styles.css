@@ -20,6 +20,7 @@ body {
 
 .site-title {
     font-size: 2rem;
+    font-weight: 500;
 }
 
 .nav ul {
@@ -71,6 +72,7 @@ body {
   
   /* src/Hero.css */
 .hero-container {
+    margin-top: 20px;
     height: 50vh;
     display: flex;
     justify-content: center;  /* Center horizontally */
@@ -113,6 +115,10 @@ body {
   width: 350px;
   border-radius: 25px;
  }
+
+ .hero-btn-two:hover {
+    background-color: #07c5f5; 
+  }
 
 
 .card-container {
@@ -200,6 +206,35 @@ body {
   gap: 8rem;
   padding: 4 6rem;
 }
+
+.footer-btn {
+    background-color: white; 
+    color: rgb(14, 13, 13); 
+    padding: 15px 20px; 
+    border: 1px solid gray; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    font-weight: 500;  
+}
+
+.dot {
+    font-weight: bold;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.humburger-menu {
+    margin-top: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+.percent {
+    font-size: larger;
+    font-weight: 700;
+}
+
+
 
 
 

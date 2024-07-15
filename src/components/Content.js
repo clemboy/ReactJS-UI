@@ -22,7 +22,7 @@ const Content = () => {
                 <p>Create a vision. To get started, imagine your dream life</p>
                 <h5>25 yrs CAGR</h5>
                 <div class="bottom">
-                    <span>7.20%</span>
+                    <span class="percent">7.20%</span>
                     <button class="btn-two">&#8594;</button>
                   </div> 
                 </div>
@@ -33,7 +33,7 @@ const Content = () => {
                 <p>Be focused Life planning, however, can serve as a roadmap or guide.</p>
                 <h5>1 yr CAGR</h5>
                     <div class="bottom">
-                        <span>7.20%</span>
+                        <span class="percent">7.20%</span>
                         <button class="btn-three">&#8594;</button>
                 </div>
                 
@@ -46,7 +46,7 @@ const Content = () => {
                 <p>Get multiple benefits, and lumpsum options & Guranteed Returns.</p>
                 <h5>5 yrs CAGR</h5>
                 <div class="bottom">
-                         <span>7.20%</span>
+                         <span class="percent">7.20%</span>
                      <button class="btn-four">&#8594;</button>
                     </div>
                 </div>
